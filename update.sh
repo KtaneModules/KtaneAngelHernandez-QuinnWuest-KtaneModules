@@ -5,7 +5,7 @@ git config user.email $EMAIL
 git config checkout.defaultRemote origin
 git fetch origin
 git checkout master
-git remote add upstream https://github.com/QuinnWuest/KtaneAngelHernandez
+git remote add upstream https://github.com/KtaneModules/KtaneAngelHernandez-QuinnWuest
 git fetch upstream
 if [ $? -ne 0 ]; then
 	echo "Failed to fetch the original repo, exiting..."
